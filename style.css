@@ -1,0 +1,178 @@
+body{
+	height:100%;
+	width:100%;
+	display:flex;
+}
+.animal{
+	height:calc(100%/3);
+	width:100%;
+	display:flex;
+	background-color: #000000
+}
+.animal2{
+	height:calc(100%/3);
+	width:100%;
+	display:flex;
+	background-color:#ffffff
+}
+.miniboxdiv{
+	height:40%;
+	width:100%;
+	display:block;
+	background-color:#90ee90
+}
+.title{
+	height:75%;
+	width:100%;
+	display:block;
+	background-color:#808080
+}
+.shuffle{
+	height:25%;
+	width:100%;
+	display:block;
+	background-color:#ffffff
+	
+}
+.reset{
+	height:25%;
+	width:100%;
+	display:block;
+	background-color:#808080
+}
+.leftboxdiv{
+	height:105.7%;
+	width:25%;
+	display:block;
+	background-color:# #000000
+}
+.rightboxdiv{
+	height:100%;
+	width:75%;
+	display:flex;
+	background-color:#FAE317
+}
+.column{
+	height:100%;
+	width:50%;
+	display:block;
+	background-color: #D3D3D3;
+}
+@media only screen and (max-width: 700px) {
+	body{
+	height:100%;
+	width:100%;
+	display:block;
+}
+.animal{
+	height:calc(100%/3);
+	width:100%;
+	display:flex;
+	background-color:#000000
+}
+.animal2{
+	height:calc(100%/3);
+	width:100%;
+	display:flex;
+	background-color:#ffffff
+}
+.miniboxdiv{
+	height:50%;
+	width:100%;
+	display:flex;
+	background-color:#90ee90
+}
+.title{
+	height:50%;
+	width:100%;
+	display:block;
+	background-color:#808080
+}
+.shuffle{
+	height:100%;
+	width:100%;
+	display:block;
+	background-color:#ffffff
+	
+}
+.reset{
+	height:100%;
+	width:100%;
+	display:block;
+	background-color#808080
+}
+.leftboxdiv{
+	height:50%;
+	width:100%;
+	display:block;
+	background-color:#ffc0cb
+}
+.rightboxdiv{
+	height:50%;
+	width:100%;
+	display:flex;
+	background-color:#FAE317
+}
+.column{
+	height:100%;
+	width:50%;
+	display:block;
+	background-color: #D3D3D3;
+}
+}
+.contain-img {
+	max-height: 75%;
+	max-width: 75%;
+}
+.center-img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width:100%;
+}
+.center-vertical {
+	align-items: center;
+}
+.center-horizontal {
+	justify-content: center;
+}	
+
+.title {
+  text-align: center;
+  font-size: 24px;
+}
+.shuffle {
+	text-align:center;
+}
+.reset {
+	text-align:center;
+}
+.center-context {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+ .zoom {
+	transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
